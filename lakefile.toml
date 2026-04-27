@@ -1,0 +1,14 @@
+name = "NewtonQSS"
+version = "0.1.0"
+defaultTargets = ["newtonQSS"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+
+[[lean_lib]]
+name = "NewtonQSS"
+
+[[lean_exe]]
+name = "newtonQSS"
+root = "Theorem2"
